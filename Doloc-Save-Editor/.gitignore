@@ -1,0 +1,24 @@
+.venv/
+vendor/
+__pycache__/
+*.pyc
+build/
+dist/
+*.spec
+
+# Local secrets and editor metadata
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+Thumbs.db
+*.log
+
+# Never commit real saves, backups, or exported save JSON
+*.data
+*.bak
+doloc-save-*.json
+decrypted*.json
+samples/
+exports/
